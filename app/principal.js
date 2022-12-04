@@ -1,5 +1,3 @@
-
-
 function countPointsUsed() {
     const attributes = document.querySelectorAll('.form__fieldset--brutos > div > input')
     const attributesValues = []
@@ -31,5 +29,21 @@ function displayRemainingAndUsedPoints() {
 
 }
 
-displayRemainingAndUsedPoints()
+const minLevelXp = [400, 800, 1200, 1600, 2000, 2600, 3200, 3800, 4400, 5000, 6000, 7000, 8000, 9000, 10000, 11600, 13200, 14800, 16400, 18000];
+
+
+function changeLevelBasedOnXp() {
+    function displayNewLevel(newLevel) {
+        if(newLevel == -1) {
+            document.getElementById('principal-level').value = 20
+        } else {
+            document.getElementById('principal-level').value = newLevel
+        }
+        
+    }
+
+    document.getElementById('principal-experiencia').addEventListener('change', () => {
+        displayNewLevel(minLevelXp.findIndex(element => element > document.getElementById('principal-experiencia').value)) 
+    })
+}
 
