@@ -15,40 +15,92 @@
         <form class="form" action="">
             <fieldset class="form__fieldset">
                 <legend>Principal</legend>
-                <div class="form__element"><label for="principal-experiencia" class="element__label">Experiência:</label><input type="number" name="principal-experiencia" id="principal-experiencia" class="element__input"></div>
-                <div class="form__element"><label for="principal-level" class="element__label">Level:</label><input type="number" name="principal-level" id="principal-level" class="element__input"></div>
+                <div class="form__element">
+                    <label for="principal-experiencia" class="element__label">Experiência:</label>
+                    <input type="number" name="principal-experiencia" id="principal-experiencia" class="element__input" min="400" max="18000" value="400">
+                </div>
+                <div class="form__element">
+                    <label for="principal-level" class="element__label">Level:</label>
+                    <input type="number" name="principal-level" id="principal-level" class="element__input" min="1" max="20" value="1">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Atributos Brutos</legend>
-                 <div class="form__element"><label for="brutos-forca" class="element__label">Força:</label><input type="number" name="brutos-forca" id="brutos-forca" class="element__input"></div>
-                 <div class="form__element"><label for="brutos-destreza" class="element__label">Destreza:</label><input type="number" name="brutos-destreza" id="brutos-destreza" class="element__input"></div>
-                 <div class="form__element"><label for="brutos-acerto" class="element__label">Acerto:</label><input type="number" name="brutos-acerto" id="brutos-acerto" class="element__input"></div>
-                 <div class="form__element"><label for="brutos-reflexo" class="element__label">Reflexo:</label><input type="number" name="brutos-reflexo" id="brutos-reflexo" class="element__input"></div>
-                 <div class="form__element"><label for="brutos-constituicao" class="element__label">Constituição:</label><input type="number" name="brutos-constituicao" id="brutos-constituicao" class="element__input"></div>
+                 <div class="form__element">
+                    <label for="brutos-forca" class="element__label">Força:</label>
+                    <input type="number" name="brutos-forca" id="brutos-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                 <div class="form__element">
+                    <label for="brutos-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="brutos-destreza" id="brutos-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                 <div class="form__element">
+                    <label for="brutos-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="brutos-acerto" id="brutos-acerto" class="element__input" min="0" max="18000" value="0">
+                </div>
+                 <div class="form__element">
+                    <label for="brutos-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="brutos-reflexo" id="brutos-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
+                 <div class="form__element">
+                    <label for="brutos-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="brutos-constituicao" id="brutos-constituicao" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Atributos Raciais</legend>
-                <div class="form__element"><label for="raciais-forca" class="element__label">Força:</label><input type="number" name="raciais-forca" id="raciais-forca" class="element__input"></div>
-                <div class="form__element"><label for="raciais-destreza" class="element__label">Destreza:</label><input type="number" name="raciais-destreza" id="raciais-destreza" class="element__input"></div>
-                <div class="form__element"><label for="raciais-acerto" class="element__label">Acerto:</label><input type="number" name="raciais-acerto" id="raciais-acerto" class="element__input"></div>
-                <div class="form__element"><label for="raciais-reflexo" class="element__label">Reflexo:</label><input type="number" name="raciais-reflexo" id="raciais-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="raciais-constituicao" class="element__label">Constituição:</label><input type="number" name="raciais-constituicao" id="raciais-constituicao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="raciais-forca" class="element__label">Força:</label>
+                    <input type="number" name="raciais-forca" id="raciais-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element"><label for="raciais-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="raciais-destreza" id="raciais-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="raciais-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="raciais-acerto" id="raciais-acerto" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="raciais-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="raciais-reflexo" id="raciais-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="raciais-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="raciais-constituicao" id="raciais-constituicao" class="element__input" min="0" max="18000" value="0">
+              
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Estilos de Combate</legend>
-                <div class="form__element"><label for="edc-forca" class="element__label">Força:</label><input type="number" name="edc-forca" id="edc-forca" class="element__input"></div>
-                <div class="form__element"><label for="edc-destreza" class="element__label">Destreza:</label><input type="number" name="edc-destreza" id="edc-destreza" class="element__input"></div>
-                <div class="form__element"><label for="edc-acerto" class="element__label">Acerto:</label><input type="number" name="edc-acerto" id="edc-acerto" class="element__input"></div>
-                <div class="form__element"><label for="edc-reflexo" class="element__label">Reflexo:</label><input type="number" name="edc-reflexo" id="edc-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="edc-constituicao" class="element__label">Constituição:</label><input type="number" name="edc-constituicao" id="edc-constituicao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="edc-forca" class="element__label">Força:</label>
+                    <input type="number" name="edc-forca" id="edc-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="edc-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="edc-destreza" id="edc-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="edc-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="edc-acerto" id="edc-acerto" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="edc-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="edc-reflexo" id="edc-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="edc-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="edc-constituicao" id="edc-constituicao" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Rokushiki</legend>
-                <div class="form__element"><label for="rokushiki-dan" class="element__label">Nível de Dan:</label><input type="number" name="rokushiki-dan" id="rokushiki-dan" class="element__input"></div>
+                <div class="form__element">
+                    <label for="rokushiki-dan" class="element__label">Nível de Dan:</label>
+                    <input type="number" name="rokushiki-dan" id="rokushiki-dan" class="element__input" min="0" max="10" value="0">
+                </div>
                 <fieldset class="rokushikiFieldset__choices">
                     <legend>Tipos</legend>
-                    <div class="form__element"><label for="rokushiki-dan" class="element__label">Nível de Dan:</label><input type="number" name="rokushiki-dan" id="rokushiki-dan" class="element__input"></div>
-
                     <div class="choices__element"><label for="rokushiki-geppou" class="element__label">geppou</label><input type="checkbox" name="rokushiki-geppou" id="rokushiki-geppou"></div>
                     <div class="choices__element"><label for="rokushiki-tekkai" class="element__label">tekkai</label><input type="checkbox" name="rokushiki-tekkai" id="rokushiki-tekkai"></div>
                     <div class="choices__element"><label for="rokushiki-shigan" class="element__label">shigan</label><input type="checkbox" name="rokushiki-shigan" id="rokushiki-shigan"></div>
@@ -57,61 +109,185 @@
                     <div class="choices__element"><label for="rokushiki-kami-e" class="element__label">kami-e</label><input type="checkbox" name="rokushiki-kami-e" id="rokushiki-kami-e"></div>
 
                 </fieldset>
-                <div class="form__element"><label for="rokushiki-forca" class="element__label">Força:</label><input type="number" name="rokushiki-forca" id="rokushiki-forca" class="element__input"></div>
-                <div class="form__element"><label for="rokushiki-destreza" class="element__label">Destreza:</label><input type="number" name="rokushiki-destreza" id="rokushiki-destreza" class="element__input"></div>
-                <div class="form__element"><label for="rokushiki-agilidade" class="element__label">Agilidade:</label><input type="number" name="rokushiki-agilidade" id="rokushiki-agilidade" class="element__input"></div>
-                <div class="form__element"><label for="rokushiki-reflexo" class="element__label">Reflexo:</label><input type="number" name="rokushiki-reflexo" id="rokushiki-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="rokushiki-armadura" class="element__label">Armadura:</label><input type="number" name="rokushiki-armadura" id="rokushiki-armadura" class="element__input"></div>
+                <div class="form__element">
+                    <label for="rokushiki-forca" class="element__label">Força:</label>
+                    <input type="number" name="rokushiki-forca" id="rokushiki-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="rokushiki-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="rokushiki-destreza" id="rokushiki-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="rokushiki-agilidade" class="element__label">Agilidade:</label>
+                    <input type="number" name="rokushiki-agilidade" id="rokushiki-agilidade" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="rokushiki-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="rokushiki-reflexo" id="rokushiki-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="rokushiki-armadura" class="element__label">Armadura:</label>
+                    <input type="number" name="rokushiki-armadura" id="rokushiki-armadura" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Akuma no Mi</legend>
-                <div class="form__element"><label for="akuma-nivel" class="element__label">Nível da Akuma:</label><input type="number" name="akuma-nivel" id="akuma-nivel" class="element__input"></div>
+                <div class="form__element">
+                    <label for="akuma-nivel" class="element__label">Nível da Akuma:</label>
+                    <input type="number" name="akuma-nivel" id="akuma-nivel" class="element__input" min="0" max="5" value="0 min="0" max="18000" value="0"">
+                </div>
 
-                <div class="form__element"><label for="akuma-forca" class="element__label">Força:</label><input type="number" name="akuma-forca" id="akuma-forca" class="element__input"></div>
-                <div class="form__element"><label for="akuma-destreza" class="element__label">Destreza:</label><input type="number" name="akuma-destreza" id="akuma-destreza" class="element__input"></div>
-                <div class="form__element"><label for="akuma-acerto" class="element__label">Acerto:</label><input type="number" name="akuma-acerto" id="akuma-acerto" class="element__input"></div>
-                <div class="form__element"><label for="akuma-reflexo" class="element__label">Reflexo:</label><input type="number" name="akuma-reflexo" id="akuma-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="akuma-constituicao" class="element__label">Constituição:</label><input type="number" name="akuma-constituicao" id="akuma-constituicao" class="element__input"></div>
-                <div class="form__element"><label for="akuma-armadura" class="element__label">Armadura:</label><input type="number" name="akuma-armadura" id="akuma-armadura" class="element__input"></div>
-                <div class="form__element"><label for="akuma-penetracao" class="element__label">Penetração:</label><input type="number" name="akuma-penetracao" id="akuma-penetracao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="akuma-forca" class="element__label">Força:</label>
+                    <input type="number" name="akuma-forca" id="akuma-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="akuma-destreza" id="akuma-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="akuma-acerto" id="akuma-acerto" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="akuma-reflexo" id="akuma-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="akuma-constituicao" id="akuma-constituicao" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-armadura" class="element__label">Armadura:</label>
+                    <input type="number" name="akuma-armadura" id="akuma-armadura" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="akuma-penetracao" class="element__label">Penetração:</label>
+                    <input type="number" name="akuma-penetracao" id="akuma-penetracao" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Caminho Interior</legend>
-                <div class="form__element"><label for="caminhoInterior-nivel" class="element__label">Nível do Caminho:</label><input type="number" name="caminhoInterior-nivel" id="caminhoInterior-nivel" class="element__input"></div>
+                <div class="form__element">
+                    <label for="caminhoInterior-nivel" class="element__label">Nível do Caminho:</label>
+                    <input type="number" name="caminhoInterior-nivel" id="caminhoInterior-nivel" class="element__input" min="0" max="5" value="0">
+                </div>
             
-                <div class="form__element"><label for="caminhoInterior-forca" class="element__label">Força:</label><input type="number" name="caminhoInterior-forca" id="caminhoInterior-forca" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-destreza" class="element__label">Destreza:</label><input type="number" name="caminhoInterior-destreza" id="caminhoInterior-destreza" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-acerto" class="element__label">Acerto:</label><input type="number" name="caminhoInterior-acerto" id="caminhoInterior-acerto" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-reflexo" class="element__label">Reflexo:</label><input type="number" name="caminhoInterior-reflexo" id="caminhoInterior-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-constituicao" class="element__label">Constituição:</label><input type="number" name="caminhoInterior-constituicao" id="caminhoInterior-constituicao" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-armadura" class="element__label">Armadura:</label><input type="number" name="caminhoInterior-armadura" id="caminhoInterior-armadura" class="element__input"></div>
-                <div class="form__element"><label for="caminhoInterior-penetracao" class="element__label">Penetração:</label><input type="number" name="caminhoInterior-penetracao" id="caminhoInterior-penetracao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="caminhoInterior-forca" class="element__label">Força:</label>
+                    <input type="number" name="caminhoInterior-forca" id="caminhoInterior-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="caminhoInterior-destreza" id="caminhoInterior-destreza" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="caminhoInterior-acerto" id="caminhoInterior-acerto" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="caminhoInterior-reflexo" id="caminhoInterior-reflexo" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="caminhoInterior-constituicao" id="caminhoInterior-constituicao" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-armadura" class="element__label">Armadura:</label>
+                    <input type="number" name="caminhoInterior-armadura" id="caminhoInterior-armadura" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoInterior-penetracao" class="element__label">Penetração:</label>
+                    <input type="number" name="caminhoInterior-penetracao" id="caminhoInterior-penetracao" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Caminho Racial</legend>
-                <div class="form__element"><label for="caminhoRacial-nivel" class="element__label">Nível do Caminho:</label><input type="number" name="caminhoRacial-nivel" id="caminhoRacial-nivel" class="element__input"></div>
+                <div class="form__element">
+                    <label for="caminhoRacial-nivel" class="element__label">Nível do Caminho:</label>
+                    <input type="number" name="caminhoRacial-nivel" id="caminhoRacial-nivel" class="element__input" min="0" max="5" value="0">
+                </div>
             
-                <div class="form__element"><label for="caminhoRacial-forca" class="element__label">Força:</label><input type="number" name="caminhoRacial-forca" id="caminhoRacial-forca" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-destreza" class="element__label">Destreza:</label><input type="number" name="caminhoRacial-destreza" id="caminhoRacial-destreza" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-acerto" class="element__label">Acerto:</label><input type="number" name="caminhoRacial-acerto" id="caminhoRacial-acerto" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-reflexo" class="element__label">Reflexo:</label><input type="number" name="caminhoRacial-reflexo" id="caminhoRacial-reflexo" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-constituicao" class="element__label">Constituição:</label><input type="number" name="caminhoRacial-constituicao" id="caminhoRacial-constituicao" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-armadura" class="element__label">Armadura:</label><input type="number" name="caminhoRacial-armadura" id="caminhoRacial-armadura" class="element__input"></div>
-                <div class="form__element"><label for="caminhoRacial-penetracao" class="element__label">Penetração:</label><input type="number" name="caminhoRacial-penetracao" id="caminhoRacial-penetracao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="caminhoRacial-forca" class="element__label">Força:</label>
+                    <input type="number" name="caminhoRacial-forca" id="caminhoRacial-forca" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="caminhoRacial-destreza" id="caminhoRacial-destreza" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="caminhoRacial-acerto" id="caminhoRacial-acerto" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="caminhoRacial-reflexo" id="caminhoRacial-reflexo" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-constituicao" class="element__label">Constituição:</label>
+                    <input type="number" name="caminhoRacial-constituicao" id="caminhoRacial-constituicao" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-armadura" class="element__label">Armadura:</label>
+                    <input type="number" name="caminhoRacial-armadura" id="caminhoRacial-armadura" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
+                <div class="form__element">
+                    <label for="caminhoRacial-penetracao" class="element__label">Penetração:</label>
+                    <input type="number" name="caminhoRacial-penetracao" id="caminhoRacial-penetracao" class="element__input" min="0" max="18000" value="0"
+                    >
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Haki do Armamento</legend>
-                <div class="form__element"><label for="hakiArmamento-nivel" class="element__label">Nível do Haki:</label><input type="number" name="hakiArmamento-nivel" id="hakiArmamento-nivel" class="element__input"></div>
-                <div class="form__element"><label for="hakiArmamento-forca" class="element__label">Força:</label><input type="number" name="hakiArmamento-forca" id="hakiArmamento-forca" class="element__input"></div>
-                <div class="form__element"><label for="hakiArmamento-destreza" class="element__label">Destreza:</label><input type="number" name="hakiArmamento-destreza" id="hakiArmamento-destreza" class="element__input"></div>
-                <div class="form__element"><label for="hakiArmamento-armadura" class="element__label">Armadura:</label><input type="number" name="hakiArmamento-armadura" id="hakiArmamento-armadura" class="element__input"></div>
-                <div class="form__element"><label for="hakiArmamento-penetracao" class="element__label">Penetração:</label><input type="number" name="hakiArmamento-penetracao" id="hakiArmamento-penetracao" class="element__input"></div>
+                <div class="form__element">
+                    <label for="hakiArmamento-nivel" class="element__label">Nível do Haki:</label>
+                    <input type="number" name="hakiArmamento-nivel" id="hakiArmamento-nivel" class="element__input" min="0" max="5" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiArmamento-forca" class="element__label">Força:</label>
+                    <input type="number" name="hakiArmamento-forca" id="hakiArmamento-forca" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiArmamento-destreza" class="element__label">Destreza:</label>
+                    <input type="number" name="hakiArmamento-destreza" id="hakiArmamento-destreza" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiArmamento-armadura" class="element__label">Armadura:</label>
+                    <input type="number" name="hakiArmamento-armadura" id="hakiArmamento-armadura" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiArmamento-penetracao" class="element__label">Penetração:</label>
+                    <input type="number" name="hakiArmamento-penetracao" id="hakiArmamento-penetracao" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
             <fieldset class="form__fieldset">
                 <legend>Haki da Observação</legend>
-                <div class="form__element"><label for="hakiObservacao-nivel" class="element__label">Nível do Haki:</label><input type="number" name="hakiObservacao-nivel" id="hakiObservacao-nivel" class="element__input"></div>
-                <div class="form__element"><label for="hakiObservacao-acerto" class="element__label">Acerto:</label><input type="number" name="hakiObservacao-acerto" id="hakiObservacao-acerto" class="element__input"></div>
-                <div class="form__element"><label for="hakiObservacao-reflexo" class="element__label">Reflexo:</label><input type="number" name="hakiObservacao-reflexo" id="hakiObservacao-reflexo" class="element__input"></div>
+                <div class="form__element">
+                    <label for="hakiObservacao-nivel" class="element__label">Nível do Haki:</label>
+                    <input type="number" name="hakiObservacao-nivel" id="hakiObservacao-nivel" class="element__input" min="0" max="5" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiObservacao-acerto" class="element__label">Acerto:</label>
+                    <input type="number" name="hakiObservacao-acerto" id="hakiObservacao-acerto" class="element__input" min="0" max="18000" value="0">
+                </div>
+                <div class="form__element">
+                    <label for="hakiObservacao-reflexo" class="element__label">Reflexo:</label>
+                    <input type="number" name="hakiObservacao-reflexo" id="hakiObservacao-reflexo" class="element__input" min="0" max="18000" value="0">
+                </div>
             </fieldset>
         </form>
         <div class="tables">
